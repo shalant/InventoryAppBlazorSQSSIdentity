@@ -1,3 +1,4 @@
+using IMS.Plugins.EFCore;
 using IMS.WebApp.Areas.Identity;
 using IMS.WebApp.Data;
 using Microsoft.AspNetCore.Components;
@@ -20,6 +21,11 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+builder.Services.AddDbContext<IMSContext>(options =>
+{
+    options.UseInMemoryDatabase("IMS");
+});
 
 var app = builder.Build();
 

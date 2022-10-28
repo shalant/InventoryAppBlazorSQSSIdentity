@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\IMS"
+    "\\IMS",
+    "\\IMS\\IMS.Plugins.EFCore",
+    "\\IMS\\IMS.UseCases",
+    "\\IMS\\IMS.WebApp"
   ],
-  "SelectedNode": "\\IMS\\IMS.sln",
+  "SelectedNode": "\\IMS\\IMS.WebApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

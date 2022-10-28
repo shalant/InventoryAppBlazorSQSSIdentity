@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RVHpBCFpvMO2eKvNuUp7jTH/HeYtt7q09RSi6E1+CAS+rrQwuubLPM7VaV/8JqSpu+M+1tXCITvzIbxgaMbDtg==",
+  "dgSpecHash": "f9Ku+X4lzqvvkczVK57yktW7SJ8kmEVs14sdN/bnAhAktGJblA6CCdHfrpksiBkTs8cB4DfmxSPu/eipoB4GIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.WebApp\\IMS.WebApp.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.10\\microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.10\\microsoft.entityframeworkcore.design.6.0.10.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.10\\microsoft.entityframeworkcore.inmemory.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.10\\microsoft.entityframeworkcore.relational.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.10\\microsoft.entityframeworkcore.sqlserver.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.10\\microsoft.entityframeworkcore.tools.6.0.10.nupkg.sha512",
