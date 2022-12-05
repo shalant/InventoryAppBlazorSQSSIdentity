@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IMS.Plugins.EFCore\IMS.Plugins.EFCore.csproj" />
+    <ProjectReference Include="..\IMS.UseCases\IMS.UseCases.csproj" />
   </ItemGroup>
 
 </Project>

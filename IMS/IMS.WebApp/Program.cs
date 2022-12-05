@@ -1,4 +1,7 @@
 using IMS.Plugins.EFCore;
+using IMS.UseCases;
+using IMS.UseCases.Inventories.Interfaces;
+using IMS.UseCases.PluginDependencies;
 using IMS.WebApp.Areas.Identity;
 using IMS.WebApp.Data;
 using Microsoft.AspNetCore.Components;
@@ -17,15 +20,20 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
 
-builder.Services.AddDbContext<IMSContext>(options =>
-{
-    options.UseInMemoryDatabase("IMS");
-});
+builder.Services.AddSingleton<IInventoryRepository, InventoryRepository>();
+
+builder.Services.AddTransient<IViewInventoriesByNameUseCase, ViewInventoriesByNameUseCase>();
+
+//builder.Services.AddDbContext<IMSContext>(options =>
+//{
+//    options.UseInMemoryDatabase("IMS");
+//});
 
 var app = builder.Build();
 

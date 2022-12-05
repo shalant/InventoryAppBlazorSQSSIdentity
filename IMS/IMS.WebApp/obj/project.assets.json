@@ -2529,6 +2529,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "IMS.Plugins.EFCore >= 1.0.0",
+      "IMS.UseCases >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.10",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.10",
@@ -2566,6 +2567,9 @@
           "projectReferences": {
             "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.EFCore.csproj": {
               "projectPath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.EFCore.csproj"
+            },
+            "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
+              "projectPath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"
             }
           }
         }
@@ -2624,7 +2628,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
