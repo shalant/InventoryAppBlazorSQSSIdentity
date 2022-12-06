@@ -20,16 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/InventoryListComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5TGlzdENvbXBvbmVudC5yYXpvcg==
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/Inventories/InventoryListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3JpZXNcSW52ZW50b3J5TGlzdENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/InventoryListItemComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/Inventories/InventoryListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3JpZXNcSW52ZW50b3J5TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/SearchInventoryComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VhcmNoSW52ZW50b3J5Q29tcG9uZW50LnJhem9y
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/Inventories/SearchInventoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3JpZXNcU2VhcmNoSW52ZW50b3J5Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Pages/Counter.razor]
@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Pages/Inventories/AddInventory.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3JpZXNcQWRkSW52ZW50b3J5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Pages/Inventories/EditInventory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3JpZXNcRWRpdEludmVudG9yeS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Pages/Inventories/InventoryList.razor]
