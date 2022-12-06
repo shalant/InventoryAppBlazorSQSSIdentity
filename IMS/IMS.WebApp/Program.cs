@@ -30,6 +30,8 @@ builder.Services.AddSingleton<IInventoryRepository, InventoryRepository>();
 
 builder.Services.AddTransient<IViewInventoriesByNameUseCase, ViewInventoriesByNameUseCase>();
 
+builder.Services.AddScoped<IViewInventoriesByNameUseCase, ViewInventoriesByNameUseCase>();
+
 //builder.Services.AddDbContext<IMSContext>(options =>
 //{
 //    options.UseInMemoryDatabase("IMS");
