@@ -2,7 +2,7 @@
 using IMS.UseCases.Inventories.Interfaces;
 using IMS.UseCases.PluginDependencies;
 
-namespace IMS.UseCases
+namespace IMS.UseCases.Inventories
 {
     public class ViewInventoriesByNameUseCase : IViewInventoriesByNameUseCase
     {
@@ -15,7 +15,7 @@ namespace IMS.UseCases
 
         public async Task<IEnumerable<Inventory>> ExecuteAsync(string name = "")
         {
-            return await this.inventoryRepository.GetInventoriesByNameAsync(name);
+            return await inventoryRepository.GetInventoriesByNameAsync(name);
         }
     }
 }
