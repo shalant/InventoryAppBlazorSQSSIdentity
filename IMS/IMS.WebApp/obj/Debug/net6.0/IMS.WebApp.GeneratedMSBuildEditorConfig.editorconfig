@@ -20,6 +20,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/InventoryListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5TGlzdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/InventoryListItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5TGlzdEl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/digdr/Documents/coding/InventoryAppBlazorSQSSIdentity/IMS/IMS.WebApp/Controls/SearchInventoryComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VhcmNoSW52ZW50b3J5Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
