@@ -1,4 +1,5 @@
 ﻿using IMS.CoreBusiness;
+using IMS.UseCases.PluginDependencies;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace IMS.UseCases.Products
             this.productRepository = productRepository;
         }
 
-        public async Task<IEnumerable<Product> ExecuteAsync(string name = "")
+        public async Task<IEnumerable<Product>> ExecuteAsync(string name = "")
         {
             return await productRepository.GetProductsByNameAsync(name);
         }

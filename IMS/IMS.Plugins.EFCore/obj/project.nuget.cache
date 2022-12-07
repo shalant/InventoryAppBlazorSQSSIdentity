@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "un9DktMoMWTf8iK+NnAYpxRe7diM9hk3QZ15Y7Z/5Uhom2wex1OjImY+go//eE1Pa2R4sz7vaKHzxlHeQX4Cvw==",
+  "dgSpecHash": "YP8MwiSjywI7nhQjTKP5fGZVQlFTlJwVuFg2AQoxIKExiyqe5aN7oUq6nqhCipfuvQqsbUoDROfTRGfmpVwrDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",

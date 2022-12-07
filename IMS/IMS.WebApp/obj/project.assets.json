@@ -978,7 +978,7 @@
           "bin/placeholder/IMS.CoreBusiness.dll": {}
         }
       },
-      "IMS.Plugins.EFCore/1.0.0": {
+      "IMS.Plugins/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -986,10 +986,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.10"
         },
         "compile": {
-          "bin/placeholder/IMS.Plugins.EFCore.dll": {}
+          "bin/placeholder/IMS.Plugins.dll": {}
         },
         "runtime": {
-          "bin/placeholder/IMS.Plugins.EFCore.dll": {}
+          "bin/placeholder/IMS.Plugins.dll": {}
         }
       },
       "IMS.UseCases/1.0.0": {
@@ -2515,10 +2515,10 @@
       "path": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj",
       "msbuildProject": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj"
     },
-    "IMS.Plugins.EFCore/1.0.0": {
+    "IMS.Plugins/1.0.0": {
       "type": "project",
-      "path": "../IMS.Plugins.EFCore/IMS.Plugins.EFCore.csproj",
-      "msbuildProject": "../IMS.Plugins.EFCore/IMS.Plugins.EFCore.csproj"
+      "path": "../IMS.Plugins.EFCore/IMS.Plugins.csproj",
+      "msbuildProject": "../IMS.Plugins.EFCore/IMS.Plugins.csproj"
     },
     "IMS.UseCases/1.0.0": {
       "type": "project",
@@ -2528,7 +2528,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "IMS.Plugins.EFCore >= 1.0.0",
+      "IMS.Plugins >= 1.0.0",
       "IMS.UseCases >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.10",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
@@ -2565,8 +2565,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.EFCore.csproj": {
-              "projectPath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.EFCore.csproj"
+            "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.csproj": {
+              "projectPath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.Plugins.EFCore\\IMS.Plugins.csproj"
             },
             "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
               "projectPath": "C:\\Users\\digdr\\Documents\\coding\\InventoryAppBlazorSQSSIdentity\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"

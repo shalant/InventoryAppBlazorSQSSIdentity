@@ -1,5 +1,5 @@
 using IMS.Plugins.EFCore;
-using IMS.Plugins.InMemory;
+using IMS.Plugins.IMS.Plugins.InMemory;
 using IMS.UseCases.Inventories;
 using IMS.UseCases.Inventories.Interfaces;
 using IMS.UseCases.PluginDependencies;

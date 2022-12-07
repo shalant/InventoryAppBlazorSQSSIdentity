@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IMS.Plugins.EFCore\IMS.Plugins.EFCore.csproj" />
+    <ProjectReference Include="..\IMS.Plugins.EFCore\IMS.Plugins.csproj" />
     <ProjectReference Include="..\IMS.UseCases\IMS.UseCases.csproj" />
   </ItemGroup>
 

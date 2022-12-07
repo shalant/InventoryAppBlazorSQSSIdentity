@@ -1,7 +1,7 @@
 ﻿using IMS.CoreBusiness;
 using IMS.UseCases.PluginDependencies;
 
-namespace IMS.Plugins.InMemory
+namespace IMS.Plugins.IMS.Plugins.InMemory
 {
     public class InventoryRepository : IInventoryRepository
     {
